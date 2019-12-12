@@ -1,4 +1,4 @@
-package jwhester.Exercise2;
+package jwhester.Exercise2.week1;
 import java.util.Random;
 import java.util.Scanner;
 public class Exercise2 {
