@@ -1,4 +1,4 @@
-package jwhester.Exercise3;
+package jwhester.Exercise3.week1;
 
 public class Exercise3 {
     public static void average(double[] array){

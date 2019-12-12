@@ -1,9 +1,8 @@
-package jwhester.Exercise1;
+package jwhester.Exercise1.week1;
 
 import java.util.Scanner;
-
-public class HardMode extends VSmode {
-    public static void HardRun() {
+public class EasyMode extends HardMode {
+    public static void EasyRun() {
         int sticks = 21;
         int numToTake;
         boolean random = Math.random() < 0.5;
@@ -23,7 +22,7 @@ public class HardMode extends VSmode {
                     System.out.println("You lose!");
                 } else {
                     //if taking two sticks makes computer lose the game, or if taking two sticks leaves some multiple of three left, then only take one, otherwise take two.
-                    if ((sticks - 2) % 3 == 0 || sticks - 2 == 0) {
+                    if (Math.random() < 0.5) {
                         numToTake = 1;
                     } else {
                         numToTake = 2;
@@ -37,7 +36,7 @@ public class HardMode extends VSmode {
                 }
             } else {
                 System.out.println("Computer goes next.");
-                if ((sticks - 2) % 3 == 0 || sticks - 2 == 0) {
+                if (Math.random() < 0.5) {
                     numToTake = 1;
                 } else {
                     numToTake = 2;

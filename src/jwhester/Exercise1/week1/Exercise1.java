@@ -1,4 +1,5 @@
-package jwhester.Exercise1;
+package jwhester.Exercise1.week1;
+
 
 import java.util.Scanner;
 public class Exercise1 extends EasyMode {
