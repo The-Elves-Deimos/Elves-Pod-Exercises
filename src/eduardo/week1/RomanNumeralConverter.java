@@ -3,7 +3,7 @@
 //All roman numerals should be returned as uppercase.
 //The largest number that can be represented in this notation is 3,999
 //Level Very Hard on edabit
-package eduardo;
+package eduardo.week1;
 
 public class RomanNumeralConverter {
 

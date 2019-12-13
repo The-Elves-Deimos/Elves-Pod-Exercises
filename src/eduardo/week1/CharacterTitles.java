@@ -8,7 +8,7 @@
 
 //level very hard on edabit
 
-package eduardo;
+package eduardo.week1;
 
 import java.util.Arrays;
 
