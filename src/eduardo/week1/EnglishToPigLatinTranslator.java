@@ -16,7 +16,7 @@
 
 //level expert in edabit
 
-package eduardo;
+package eduardo.week1;
 
 import java.util.Arrays;
 
