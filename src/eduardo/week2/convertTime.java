@@ -2,7 +2,7 @@
 //Notes
 //        Midnight is 12:00:00AM on a 12-hour clock, and 00:00:00 on a 24-hour clock.
 //        Noon is 12:00:00PM on a 12-hour clock, and 12:00:00 on a 24-hour clock.
-package eduardo.week1.week2;
+package eduardo.week2;
 
 import java.util.Arrays;
 
